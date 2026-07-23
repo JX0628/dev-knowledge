@@ -11,8 +11,6 @@ export default defineConfig({
     nav: [
       { text: '速查', link: '/cheatsheets/' },
       { text: '片段', link: '/snippets/' },
-      { text: '问题', link: '/fixes/' },
-      { text: '模板', link: '/templates/' },
       { text: '资料', link: '/references/' }
     ],
     sidebar: {
@@ -34,24 +32,6 @@ export default defineConfig({
             { text: 'Shell 片段', link: '/snippets/shell' },
             { text: 'JavaScript 片段', link: '/snippets/javascript' },
             { text: 'CSS 片段', link: '/snippets/css' }
-          ]
-        }
-      ],
-      '/fixes/': [
-        {
-          text: '问题解决',
-          items: [
-            { text: '问题首页', link: '/fixes/' },
-            { text: 'Node 版本问题', link: '/fixes/node-version' }
-          ]
-        }
-      ],
-      '/templates/': [
-        {
-          text: '配置模板',
-          items: [
-            { text: '模板首页', link: '/templates/' },
-            { text: 'README 模板', link: '/templates/readme' }
           ]
         }
       ],
