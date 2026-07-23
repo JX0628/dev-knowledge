@@ -10,6 +10,10 @@
 - [Node.js](https://nodejs.org/)
 - [npm](https://docs.npmjs.com/)
 
+## 本地说明
+
+- [VitePress 常用语法](./vitepress-syntax)
+
 ## 工具入口
 
 - [Can I use](https://caniuse.com/)

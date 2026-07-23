@@ -58,7 +58,10 @@ export default defineConfig({
       '/references/': [
         {
           text: '参考资料',
-          items: [{ text: '资料首页', link: '/references/' }]
+          items: [
+            { text: '资料首页', link: '/references/' },
+            { text: 'VitePress 常用语法', link: '/references/vitepress-syntax' }
+          ]
         }
       ]
     },
