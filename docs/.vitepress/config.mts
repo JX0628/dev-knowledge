@@ -32,7 +32,8 @@ export default defineConfig({
           items: [
             { text: '片段首页', link: '/snippets/' },
             { text: 'Shell 片段', link: '/snippets/shell' },
-            { text: 'JavaScript 片段', link: '/snippets/javascript' }
+            { text: 'JavaScript 片段', link: '/snippets/javascript' },
+            { text: 'CSS 片段', link: '/snippets/css' }
           ]
         }
       ],
