@@ -9,16 +9,16 @@ export default defineConfig({
   themeConfig: {
     logo: '/logo.svg',
     nav: [
-      { text: '速查', link: '/cheatsheets/' },
-      { text: '片段', link: '/snippets/' },
-      { text: '资料', link: '/references/' }
+      { text: '常用速查', link: '/cheatsheets/' },
+      { text: '代码片段', link: '/snippets/' },
+      { text: '参考资料', link: '/references/' }
     ],
     sidebar: {
       '/cheatsheets/': [
         {
           text: '常用速查',
           items: [
-            { text: '速查首页', link: '/cheatsheets/' },
+            { text: '常用速查首页', link: '/cheatsheets/' },
             { text: 'Git 常用命令', link: '/cheatsheets/git' },
             { text: 'npm 常用命令', link: '/cheatsheets/npm' }
           ]
@@ -28,7 +28,7 @@ export default defineConfig({
         {
           text: '代码片段',
           items: [
-            { text: '片段首页', link: '/snippets/' },
+            { text: '代码片段首页', link: '/snippets/' },
             { text: 'Shell 片段', link: '/snippets/shell' },
             { text: 'JavaScript 片段', link: '/snippets/javascript' },
             { text: 'CSS 片段', link: '/snippets/css' }
@@ -39,7 +39,7 @@ export default defineConfig({
         {
           text: '参考资料',
           items: [
-            { text: '资料首页', link: '/references/' },
+            { text: '参考资料首页', link: '/references/' },
             { text: 'VitePress 常用语法', link: '/references/vitepress-syntax' }
           ]
         }

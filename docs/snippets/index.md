@@ -20,7 +20,7 @@
 ## 注意事项
 ```
 
-## 已有片段
+## 已有内容
 
 - [Shell 片段](./shell.md)
 - [JavaScript 片段](./javascript.md)
