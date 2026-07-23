@@ -24,4 +24,8 @@
 
 - [JavaScript](./javascript/)
 - [CSS](./css/)
+- [TypeScript](./typescript/)
+- [HTML](./html/)
+- [Web API](./web-api/)
+- [工程化](./engineering/)
 - [Shell](./shell/)
