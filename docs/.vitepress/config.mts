@@ -26,12 +26,32 @@ export default defineConfig({
       ],
       '/snippets/': [
         {
-          text: '代码片段',
+          text: 'JavaScript',
           items: [
             { text: '代码片段首页', link: '/snippets/' },
-            { text: 'Shell 片段', link: '/snippets/shell' },
-            { text: 'JavaScript 片段', link: '/snippets/javascript' },
-            { text: 'CSS 片段', link: '/snippets/css' }
+            { text: 'JavaScript 首页', link: '/snippets/javascript/' },
+            { text: '数组', link: '/snippets/javascript/array' },
+            { text: '对象', link: '/snippets/javascript/object' },
+            { text: '异步', link: '/snippets/javascript/async' },
+            { text: '浏览器', link: '/snippets/javascript/browser' },
+            { text: '格式化', link: '/snippets/javascript/format' }
+          ]
+        },
+        {
+          text: 'CSS',
+          items: [
+            { text: 'CSS 首页', link: '/snippets/css/' },
+            { text: '布局', link: '/snippets/css/layout' },
+            { text: '文本', link: '/snippets/css/text' },
+            { text: '表单', link: '/snippets/css/form' },
+            { text: '移动端', link: '/snippets/css/mobile' },
+            { text: '可访问性', link: '/snippets/css/accessibility' }
+          ]
+        },
+        {
+          text: 'Shell',
+          items: [
+            { text: 'Shell 首页', link: '/snippets/shell/' }
           ]
         }
       ],
