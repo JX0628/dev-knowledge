@@ -31,7 +31,7 @@ export default defineConfig({
             { text: '代码片段首页', link: '/snippets/' },
             {
               text: 'JavaScript',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: '首页', link: '/snippets/javascript/' },
                 { text: '数组', link: '/snippets/javascript/array' },
@@ -46,7 +46,7 @@ export default defineConfig({
             },
             {
               text: 'CSS',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: '首页', link: '/snippets/css/' },
                 { text: '布局', link: '/snippets/css/layout' },
@@ -61,7 +61,7 @@ export default defineConfig({
             },
             {
               text: 'TypeScript',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: '首页', link: '/snippets/typescript/' },
                 { text: '类型工具', link: '/snippets/typescript/types' },
@@ -71,7 +71,7 @@ export default defineConfig({
             },
             {
               text: 'HTML',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: '首页', link: '/snippets/html/' },
                 { text: '基础结构', link: '/snippets/html/base' },
@@ -81,7 +81,7 @@ export default defineConfig({
             },
             {
               text: 'Web API',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: '首页', link: '/snippets/web-api/' },
                 { text: 'Observer', link: '/snippets/web-api/observer' },
@@ -91,7 +91,7 @@ export default defineConfig({
             },
             {
               text: '工程化',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: '首页', link: '/snippets/engineering/' },
                 { text: 'package.json', link: '/snippets/engineering/package-json' },
@@ -101,7 +101,7 @@ export default defineConfig({
             },
             {
               text: 'Shell',
-              collapsed: false,
+              collapsed: true,
               items: [
                 { text: '首页', link: '/snippets/shell/' }
               ]
