@@ -1,6 +1,8 @@
 # package.json
 
-## 常用 scripts
+## 常用片段
+
+### 常用 scripts
 
 ```json
 {
@@ -15,7 +17,7 @@
 }
 ```
 
-## 指定 Node 版本
+### 指定 Node 版本
 
 ```json
 {

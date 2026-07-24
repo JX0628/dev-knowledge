@@ -1,6 +1,8 @@
 # Observer
 
-## 监听元素进入视口
+## 常用片段
+
+### 监听元素进入视口
 
 ```js
 const observer = new IntersectionObserver((entries) => {
@@ -17,7 +19,7 @@ document.querySelectorAll('[data-reveal]').forEach((element) => {
 })
 ```
 
-## 监听元素尺寸变化
+### 监听元素尺寸变化
 
 ```js
 const observer = new ResizeObserver((entries) => {

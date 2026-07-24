@@ -1,6 +1,8 @@
 # 类型收窄
 
-## 过滤空值
+## 常用片段
+
+### 过滤空值
 
 ```ts
 function isNonNullable<T>(value: T): value is NonNullable<T> {
@@ -10,7 +12,7 @@ function isNonNullable<T>(value: T): value is NonNullable<T> {
 const names = list.map((item) => item.name).filter(isNonNullable)
 ```
 
-## 判断错误类型
+### 判断错误类型
 
 ```ts
 function isError(error: unknown): error is Error {
@@ -18,7 +20,7 @@ function isError(error: unknown): error is Error {
 }
 ```
 
-## 穷尽检查
+### 穷尽检查
 
 ```ts
 function assertNever(value: never): never {

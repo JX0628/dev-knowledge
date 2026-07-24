@@ -1,6 +1,8 @@
 # 存储
 
-## Session Storage
+## 常用片段
+
+### Session Storage
 
 ```js
 sessionStorage.setItem('token', token)
@@ -8,7 +10,7 @@ const token = sessionStorage.getItem('token')
 sessionStorage.removeItem('token')
 ```
 
-## Cookie 读取
+### Cookie 读取
 
 ```js
 function getCookie(name) {
@@ -19,7 +21,7 @@ function getCookie(name) {
 }
 ```
 
-## 判断本地存储是否可用
+### 判断本地存储是否可用
 
 ```js
 function canUseLocalStorage() {

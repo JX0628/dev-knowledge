@@ -1,12 +1,14 @@
 # 异步
 
-## 等待一段时间
+## 常用片段
+
+### 等待一段时间
 
 ```js
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 ```
 
-## 并发请求
+### 并发请求
 
 ```js
 const [user, orders] = await Promise.all([
@@ -15,7 +17,7 @@ const [user, orders] = await Promise.all([
 ])
 ```
 
-## 带超时的请求
+### 带超时的请求
 
 ```js
 async function fetchWithTimeout(url, options = {}, timeout = 8000) {

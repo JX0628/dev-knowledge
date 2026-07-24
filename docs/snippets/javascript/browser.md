@@ -1,6 +1,8 @@
 # 浏览器
 
-## 防抖
+## 常用片段
+
+### 防抖
 
 适合搜索框输入、窗口尺寸变化等高频事件。
 
@@ -19,7 +21,7 @@ const onSearch = debounce((keyword) => {
 }, 300)
 ```
 
-## 节流
+### 节流
 
 适合滚动、拖拽、按钮防连点等场景。
 
@@ -38,14 +40,14 @@ function throttle(fn, delay = 300) {
 }
 ```
 
-## 获取 URL 参数
+### 获取 URL 参数
 
 ```js
 const params = new URLSearchParams(window.location.search)
 const id = params.get('id')
 ```
 
-## 修改 URL 参数
+### 修改 URL 参数
 
 ```js
 const url = new URL(window.location.href)
@@ -53,7 +55,7 @@ url.searchParams.set('page', '1')
 window.history.replaceState(null, '', url)
 ```
 
-## 复制文本到剪贴板
+### 复制文本到剪贴板
 
 ```js
 async function copyText(text) {
@@ -61,7 +63,7 @@ async function copyText(text) {
 }
 ```
 
-## 下载文本文件
+### 下载文本文件
 
 ```js
 function downloadText(filename, content) {

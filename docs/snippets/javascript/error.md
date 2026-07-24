@@ -1,6 +1,8 @@
 # 错误处理
 
-## 包装异步结果
+## 常用片段
+
+### 包装异步结果
 
 适合不想在调用处重复写 `try...catch` 的场景。
 
@@ -17,7 +19,7 @@ async function to(promise) {
 const [error, data] = await to(fetch('/api/user').then((res) => res.json()))
 ```
 
-## 统一错误信息
+### 统一错误信息
 
 ```js
 function getErrorMessage(error) {
@@ -27,7 +29,7 @@ function getErrorMessage(error) {
 }
 ```
 
-## 重试异步任务
+### 重试异步任务
 
 ```js
 async function retry(fn, times = 3) {

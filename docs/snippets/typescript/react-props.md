@@ -1,6 +1,8 @@
 # React Props
 
-## 带 children 的 Props
+## 常用片段
+
+### 带 children 的 Props
 
 ```ts
 import type { PropsWithChildren } from 'react'
@@ -10,7 +12,7 @@ type CardProps = PropsWithChildren<{
 }>
 ```
 
-## 继承原生按钮属性
+### 继承原生按钮属性
 
 ```ts
 import type { ButtonHTMLAttributes } from 'react'
@@ -20,7 +22,7 @@ type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
 }
 ```
 
-## 组件引用类型
+### 组件引用类型
 
 ```ts
 import type { ComponentPropsWithoutRef } from 'react'

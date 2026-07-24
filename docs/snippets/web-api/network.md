@@ -1,6 +1,8 @@
 # 网络
 
-## 判断在线状态
+## 常用片段
+
+### 判断在线状态
 
 ```js
 const isOnline = navigator.onLine
@@ -14,7 +16,7 @@ window.addEventListener('offline', () => {
 })
 ```
 
-## 请求 JSON
+### 请求 JSON
 
 ```js
 async function requestJson(url, options) {

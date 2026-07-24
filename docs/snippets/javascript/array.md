@@ -1,18 +1,20 @@
 # 数组
 
-## 数组去重
+## 常用片段
+
+### 数组去重
 
 ```js
 const uniqueList = [...new Set(list)]
 ```
 
-## 按对象字段去重
+### 按对象字段去重
 
 ```js
 const uniqueById = [...new Map(list.map((item) => [item.id, item])).values()]
 ```
 
-## 数组分组
+### 数组分组
 
 ```js
 function groupBy(list, key) {

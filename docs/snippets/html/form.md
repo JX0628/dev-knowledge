@@ -1,13 +1,15 @@
 # 表单
 
-## 可访问表单项
+## 常用片段
+
+### 可访问表单项
 
 ```html
 <label for="email">邮箱</label>
 <input id="email" name="email" type="email" autocomplete="email" required />
 ```
 
-## 搜索框
+### 搜索框
 
 ```html
 <form role="search">
@@ -17,7 +19,7 @@
 </form>
 ```
 
-## 文件上传
+### 文件上传
 
 ```html
 <input type="file" name="file" accept="image/*" />

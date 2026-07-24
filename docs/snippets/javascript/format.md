@@ -1,6 +1,8 @@
 # 格式化
 
-## 格式化日期
+## 常用片段
+
+### 格式化日期
 
 ```js
 const formatter = new Intl.DateTimeFormat('zh-CN', {
@@ -11,7 +13,7 @@ const formatter = new Intl.DateTimeFormat('zh-CN', {
 formatter.format(new Date())
 ```
 
-## 金额格式化
+### 金额格式化
 
 ```js
 const currency = new Intl.NumberFormat('zh-CN', {
@@ -22,13 +24,13 @@ const currency = new Intl.NumberFormat('zh-CN', {
 currency.format(123456.78)
 ```
 
-## 数字补零
+### 数字补零
 
 ```js
 const value = String(8).padStart(2, '0')
 ```
 
-## 生成随机 ID
+### 生成随机 ID
 
 ```js
 const id = crypto.randomUUID()

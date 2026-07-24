@@ -1,6 +1,8 @@
 # 函数
 
-## 只执行一次
+## 常用片段
+
+### 只执行一次
 
 ```js
 function once(fn) {
@@ -18,7 +20,7 @@ function once(fn) {
 }
 ```
 
-## 管道执行
+### 管道执行
 
 ```js
 const pipe =
@@ -32,7 +34,7 @@ const trimLower = pipe(
 )
 ```
 
-## 安全调用可选回调
+### 安全调用可选回调
 
 ```js
 function submit(data, onSuccess) {

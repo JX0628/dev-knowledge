@@ -1,13 +1,15 @@
 # SEO
 
-## 基础 Meta
+## 常用片段
+
+### 基础 Meta
 
 ```html
 <title>页面标题</title>
 <meta name="description" content="页面描述" />
 ```
 
-## Open Graph
+### Open Graph
 
 ```html
 <meta property="og:title" content="页面标题" />
@@ -16,7 +18,7 @@
 <meta property="og:image" content="https://example.com/og.png" />
 ```
 
-## Canonical
+### Canonical
 
 ```html
 <link rel="canonical" href="https://example.com/page" />

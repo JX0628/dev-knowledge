@@ -1,6 +1,8 @@
 # Git Hooks
 
-## lint-staged
+## 常用片段
+
+### lint-staged
 
 ```json
 {
@@ -11,7 +13,7 @@
 }
 ```
 
-## Husky pre-commit
+### Husky pre-commit
 
 ```bash
 npx husky init
