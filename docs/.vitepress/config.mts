@@ -26,74 +26,86 @@ export default defineConfig({
       ],
       '/snippets/': [
         {
-          text: 'JavaScript',
+          text: '代码片段',
           items: [
             { text: '代码片段首页', link: '/snippets/' },
-            { text: 'JavaScript 首页', link: '/snippets/javascript/' },
-            { text: '数组', link: '/snippets/javascript/array' },
-            { text: '对象', link: '/snippets/javascript/object' },
-            { text: '函数', link: '/snippets/javascript/function' },
-            { text: '字符串', link: '/snippets/javascript/string' },
-            { text: '异步', link: '/snippets/javascript/async' },
-            { text: '浏览器', link: '/snippets/javascript/browser' },
-            { text: '格式化', link: '/snippets/javascript/format' },
-            { text: '错误处理', link: '/snippets/javascript/error' }
-          ]
-        },
-        {
-          text: 'CSS',
-          items: [
-            { text: 'CSS 首页', link: '/snippets/css/' },
-            { text: '布局', link: '/snippets/css/layout' },
-            { text: '文本', link: '/snippets/css/text' },
-            { text: '表单', link: '/snippets/css/form' },
-            { text: '动画', link: '/snippets/css/animation' },
-            { text: '滚动', link: '/snippets/css/scroll' },
-            { text: '移动端', link: '/snippets/css/mobile' },
-            { text: '可访问性', link: '/snippets/css/accessibility' },
-            { text: '变量与主题', link: '/snippets/css/theme' }
-          ]
-        },
-        {
-          text: 'TypeScript',
-          items: [
-            { text: 'TypeScript 首页', link: '/snippets/typescript/' },
-            { text: '类型工具', link: '/snippets/typescript/types' },
-            { text: 'React Props', link: '/snippets/typescript/react-props' },
-            { text: '类型收窄', link: '/snippets/typescript/narrowing' }
-          ]
-        },
-        {
-          text: 'HTML',
-          items: [
-            { text: 'HTML 首页', link: '/snippets/html/' },
-            { text: '基础结构', link: '/snippets/html/base' },
-            { text: '表单', link: '/snippets/html/form' },
-            { text: 'SEO', link: '/snippets/html/seo' }
-          ]
-        },
-        {
-          text: 'Web API',
-          items: [
-            { text: 'Web API 首页', link: '/snippets/web-api/' },
-            { text: 'Observer', link: '/snippets/web-api/observer' },
-            { text: '存储', link: '/snippets/web-api/storage' },
-            { text: '网络', link: '/snippets/web-api/network' }
-          ]
-        },
-        {
-          text: '工程化',
-          items: [
-            { text: '工程化首页', link: '/snippets/engineering/' },
-            { text: 'package.json', link: '/snippets/engineering/package-json' },
-            { text: '环境变量', link: '/snippets/engineering/env' },
-            { text: 'Git Hooks', link: '/snippets/engineering/git-hooks' }
-          ]
-        },
-        {
-          text: 'Shell',
-          items: [
-            { text: 'Shell 首页', link: '/snippets/shell/' }
+            {
+              text: 'JavaScript',
+              collapsed: false,
+              items: [
+                { text: '首页', link: '/snippets/javascript/' },
+                { text: '数组', link: '/snippets/javascript/array' },
+                { text: '对象', link: '/snippets/javascript/object' },
+                { text: '函数', link: '/snippets/javascript/function' },
+                { text: '字符串', link: '/snippets/javascript/string' },
+                { text: '异步', link: '/snippets/javascript/async' },
+                { text: '浏览器', link: '/snippets/javascript/browser' },
+                { text: '格式化', link: '/snippets/javascript/format' },
+                { text: '错误处理', link: '/snippets/javascript/error' }
+              ]
+            },
+            {
+              text: 'CSS',
+              collapsed: false,
+              items: [
+                { text: '首页', link: '/snippets/css/' },
+                { text: '布局', link: '/snippets/css/layout' },
+                { text: '文本', link: '/snippets/css/text' },
+                { text: '表单', link: '/snippets/css/form' },
+                { text: '动画', link: '/snippets/css/animation' },
+                { text: '滚动', link: '/snippets/css/scroll' },
+                { text: '移动端', link: '/snippets/css/mobile' },
+                { text: '可访问性', link: '/snippets/css/accessibility' },
+                { text: '变量与主题', link: '/snippets/css/theme' }
+              ]
+            },
+            {
+              text: 'TypeScript',
+              collapsed: false,
+              items: [
+                { text: '首页', link: '/snippets/typescript/' },
+                { text: '类型工具', link: '/snippets/typescript/types' },
+                { text: 'React Props', link: '/snippets/typescript/react-props' },
+                { text: '类型收窄', link: '/snippets/typescript/narrowing' }
+              ]
+            },
+            {
+              text: 'HTML',
+              collapsed: false,
+              items: [
+                { text: '首页', link: '/snippets/html/' },
+                { text: '基础结构', link: '/snippets/html/base' },
+                { text: '表单', link: '/snippets/html/form' },
+                { text: 'SEO', link: '/snippets/html/seo' }
+              ]
+            },
+            {
+              text: 'Web API',
+              collapsed: false,
+              items: [
+                { text: '首页', link: '/snippets/web-api/' },
+                { text: 'Observer', link: '/snippets/web-api/observer' },
+                { text: '存储', link: '/snippets/web-api/storage' },
+                { text: '网络', link: '/snippets/web-api/network' }
+              ]
+            },
+            {
+              text: '工程化',
+              collapsed: false,
+              items: [
+                { text: '首页', link: '/snippets/engineering/' },
+                { text: 'package.json', link: '/snippets/engineering/package-json' },
+                { text: '环境变量', link: '/snippets/engineering/env' },
+                { text: 'Git Hooks', link: '/snippets/engineering/git-hooks' }
+              ]
+            },
+            {
+              text: 'Shell',
+              collapsed: false,
+              items: [
+                { text: '首页', link: '/snippets/shell/' }
+              ]
+            }
           ]
         }
       ],
